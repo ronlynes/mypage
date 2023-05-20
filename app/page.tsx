@@ -2,54 +2,51 @@
 
 export default function Page() {
   return (
-    <div>
-      <div className="flex mx-auto w-[800px] mt-12">
-        <div className="mr-12 mt-4">
+    <div className="w-full">
+      <div className="
+        flex items-center space-x-4 xl:mx-auto">
+        <div className="w-20 xl:w-[300px] ml-1">
           <img
-            src="/icon.png"
+            src="/myself.png"
             className="
-              rounded-full
+              rounded-md
               object-cover
-              w-full
               ring
               ring-gray-300
-              block"
+              inline-block"
             alt="Takuma Nishimura"
           />
         </div>
-        <div className="">
-          <h2 className="font-semibold text-3xl mb-3 ">
+        <div className="flex-1 text-gray-800">
+          <h2 className="font-semibold text-base text-center md:text-3xl mb-3">
             Takuma Nishimura
           </h2>
-          <p className="text-gray-800">
+          <p className="text-xs">
             M.Sc. Artificial Intelligence&nbsp;
           </p>
-          <p>
-            <a href="text-blue-900" className="text-blue-600">
-              Friedrich-Alexander-Universität Erlangen-Nürnberg, &nbsp;
-            </a>
-            Erlangen, Germany
+          <p className="text-xs">
+              Friedrich-Alexander-Universität Erlangen-Nürnber, Erlangen, Germany
           </p>
-          <p className="mt-2 text-gray-800">
+          <p className="text-xs mt-2">
             I'm a software engineer with a strong interest in computer vision and computer graphics. I enjoy applying my software engineering skills to creative projects and exploring new technologies and trends in these fields.
           </p>
         </div>
       </div>
-      <div className="mx-auto w-[900px] mt-12">
-        <h2 className="font-semibold text-3xl">
+      <div className="mt-4 md:mx-auto md:w-[900px] md:mt-12">
+        <h2 className="font-semibold text-base md:text-3xl">
           Education
         </h2>
-        <div className="text-right">
-          <h3 className="text-2xl mb-2">
+        <div className="mt-4 text-right text-xs">
+          <h3 className="text-sm font-semibold md:text-2xl mb-2">
             Friedrich-Alexander-Universität Erlangen-Nürnberg
           </h3>
           <p>Master's degree</p>
           <p>Artifitial intelligence</p>
-          <p>Computer Vision, Computer Gprahics, Machine Learning, DeepLearning</p>
+          <p>Computer Vision/Gprahics, ML, DL</p>
           <p>2021.10.01 〜 2024.03.31</p>
         </div>
-        <div className="text-right mt-8">
-          <h3 className="text-2xl mb-2">
+        <div className="mt-4 text-right text-xs">
+          <h3 className="text-sm font-semibold md:text-2xl mb-2">
             The University of Electro-Communications
           </h3>
           <p>Bachelor's Degree</p>
