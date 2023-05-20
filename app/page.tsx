@@ -28,7 +28,7 @@ export default function Page() {
               Friedrich-Alexander-Universität Erlangen-Nürnber, Erlangen, Germany
           </p>
           <p className="text-xs mt-2">
-            I'm a software engineer with a strong interest in computer vision and computer graphics. I enjoy applying my software engineering skills to creative projects and exploring new technologies and trends in these fields.
+            I&apos;m a software engineer with a strong interest in computer vision and computer graphics. I enjoy applying my software engineering skills to creative projects and exploring new technologies and trends in these fields.
           </p>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function Page() {
           <h3 className="text-sm font-semibold md:text-2xl mb-2">
             Friedrich-Alexander-Universität Erlangen-Nürnberg
           </h3>
-          <p>Master's degree</p>
+          <p>Master&apos;s degree</p>
           <p>Artifitial intelligence</p>
           <p>Computer Vision/Gprahics, ML, DL</p>
           <p>2021.10.01 〜 2024.03.31</p>
@@ -49,7 +49,7 @@ export default function Page() {
           <h3 className="text-sm font-semibold md:text-2xl mb-2">
             The University of Electro-Communications
           </h3>
-          <p>Bachelor's Degree</p>
+          <p>Bachelor&apos;s Degree</p>
           <p>Security Informatics Program, School of Informatics and Engineering</p>
           <p>The University of Electro-Communications</p>
           <p>Mathematics, Computer, Cyber Security</p>
