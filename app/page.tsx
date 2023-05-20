@@ -4,8 +4,8 @@ export default function Page() {
   return (
     <div className="w-full">
       <div className="
-        flex items-center space-x-4 xl:mx-auto">
-        <div className="w-20 xl:w-[300px] ml-1">
+        flex items-center space-x-4">
+        <div className="w-20 ml-1 md:w-[100px] ">
           <img
             src="/myself.png"
             className="
@@ -32,7 +32,7 @@ export default function Page() {
           </p>
         </div>
       </div>
-      <div className="mt-4 md:mx-auto md:w-[900px] md:mt-12">
+      <div className="mt-4 md:mt-12">
         <h2 className="font-semibold text-base md:text-3xl">
           Education
         </h2>

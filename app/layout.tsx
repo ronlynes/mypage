@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main>
-          <div className="px-4 py-8">
+          <div className="px-4 py-8 md:w-[700px] md:mx-auto lg:w-[800px] ">
             {children}
           </div>
         </main>
