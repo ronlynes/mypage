@@ -7,7 +7,7 @@ export default function Page() {
         flex items-center space-x-4">
         <div className="w-20 ml-1 md:w-[100px] ">
           <img
-            src="https://github.com/ronlynes/mypage/blob/master/public/myself.png?raw=true"
+            src="https://github.com/ronlynes/mypage/blob/master/public/myself.jpg?raw=true"
             className="
               rounded-md
               object-cover
